@@ -1,21 +1,23 @@
 <!DOCTYPE HTML>
 <html lang="de">
 <head>
-<title>IIX WS 2016/17 Prototyp</title>
+	<title>IIX WS 2016/17 Prototyp</title>
 
-<meta charset="utf-8">
-<link href="../css/landing.css" rel="stylesheet">
-<link href="../css/main.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<link href="../css/landing.css" rel="stylesheet">
+	<link href="../css/main.css" rel="stylesheet">
 
-<!-- Gettting Bootstrap CSS -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<!-- Getting Bootstrap JS -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Getting Bootstrap JQuery -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Gettting Bootstrap CSS -->
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<!-- Getting Bootstrap JQuery -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Getting Bootstrap JS -->
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </head>
 <body>
 
@@ -44,6 +46,7 @@
 			</ul>
 		</div>
 	</nav>
+
 	<div class="parallex_head">
 		<!-- HEADLINE WITH SUBHEAD -->
 
@@ -61,34 +64,50 @@
 				</span>
 			</div>
 		</div>
-		<div class="advanced_search">erweiterte Suche</div>
+		<div class="col-center text-center"><a href="extended_search.html">
+			<span class="advanced_search">Erweiterte Suche</span>
+		</a></div>
 		<div class="downward_arrow">
 			<span class="downward_arrow glyphicon glyphicon-chevron-down"></span>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col-sm-6">
-			<h3>kuerzlich hinzugefuegte Skripten</h3>
-			<div class="col-sm-2"></div>
+		<div class="col-sm-1"></div>
+		<div class="col-sm-5 row">
+			<h3>Zuletzt angesehen:</h3>
 			<div class="col-sm-10">
-				<ul class="recently_added_items">
-					<li>1.item</li>
-					<li>2.item</li>
-					<li>3.item</li>
-				</ul>
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Script Number One</h4>
+						<p class="list-group-item-text">Details like Content, Semester, ....</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Script Number One</h4>
+						<p class="list-group-item-text">Details like Content, Semester, ....</p>
+					</a>
+				</div>
 			</div>
 		</div>
-		<div class="col-sm-2">
-			<h3 class="header_my_uploads">Meine Uploads</h3> <a href="../html/upload_script.html">
-          <span class="add_resource glyphicon glyphicon-plus"></span>
-        </a>
-        <div class="clear"></div>
-			<ul class="recently_added_items">
-				<li>1.item</li>
-				<li>2.item</li>
-				<li>3.item
-			</ul>
+		<div class="col-sm-5 row">
+			<h3> <span>
+				<a href=""> Meine Uploads </a>
+				<a href="../html/upload_script.html">
+					<span class="glyphicon glyphicon-upload"></span>
+				</a>
+				</span>
+			</h3>
+			<div class="col-sm-10">
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Upload Number One</h4>
+						<p class="list-group-item-text">Details like Content, Semester, ....</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Upload Number One</h4>
+						<p class="list-group-item-text">Details like Content, Semester, ....</p>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

@@ -11,3 +11,8 @@
 .margin_top{
 	margin-top:60px;
 }
+
+body {
+	padding-top: 65px;
+	color: black;
+}
